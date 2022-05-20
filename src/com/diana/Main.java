@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = null;
-        try {
+        try {//manejamos excepciones
             System.out.println("Introduzca el nombre de archivo");
             String rutaRelativa=sc.nextLine();
             String pwd = System.getProperty("user.dir");//ruta directorio actual de trabajo
